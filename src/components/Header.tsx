@@ -38,6 +38,12 @@ const Header = () => {
               Airbnb your home
             </Button>
             
+            <Link to="/contact-us">
+              <Button variant="ghost" className="hidden md:flex items-center gap-2 font-medium">
+                Contact Us
+              </Button>
+            </Link>
+            
             <Button variant="ghost" size="icon">
               <Globe className="h-4 w-4" />
             </Button>
